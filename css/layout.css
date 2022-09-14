@@ -157,7 +157,15 @@
     margin-top: 45px;
 }
 
+.state-document__headline{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
 
+.state-document__top{
+    display: flex;
+    gap: 15px;
+}
 
 
 
