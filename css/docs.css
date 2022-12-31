@@ -1,0 +1,95 @@
+.gos-docs__content {
+    display: flex;
+    column-gap: 140px;
+    justify-content: space-between;
+}
+
+.gos-docs__item:first-child {
+    border-top: 1px solid var(--color-line);
+}
+
+.gos-docs__item > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.gos-docs__content > div:first-child {
+    width: 100%;
+}
+
+.gos-docs__item {
+    padding: 30px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-line);
+}
+
+.mb-5 {
+    margin-bottom: 25px;
+}
+
+.head-doc .select__list {
+    width: auto;
+}
+
+.headline__main {
+    margin-bottom: 0;
+}
+
+.head-doc .select {
+    border: none;
+    max-width: 220px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.gos-docs__item .headline {
+    margin-bottom: 15px;
+}
+
+.gos-docs__item p {
+    font-size: 1.125rem;
+    font-family: 'Roboto Bold';
+}
+
+.form__docs {
+    border-radius: var(--radius);
+    border: 1px solid var(--color-line);
+    max-width: 455px;
+    min-width: 455px;
+    padding: 30px 25px;
+}
+
+.form__docs input {
+    width: 100%;
+    margin-top: 5px;
+    border:1px solid var(--color-line);
+}
+
+.form__docs .form__control {
+    margin-bottom: 30px;
+}
+
+.form__docs .form__group {
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.form__docs .btn-default {
+    width: 100%;
+}
+
+.docs-download {
+    margin: 60px auto 0 auto;
+}
+
+.form__control .select {
+    max-width: 100%;
+    margin-top: 5px;
+    border: 1px solid var(--color-line);
+    height: 55px;
+}

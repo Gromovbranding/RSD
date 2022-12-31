@@ -1,0 +1,142 @@
+.image__slader {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text__header {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.text__header h2 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.text__info {
+    font-size: 16px;
+    color: #000000;
+    max-width: 815px;
+}
+
+.text__info span {
+    font-weight: 900;
+}
+
+.text__info:last-child p {
+    margin-top: 10px;
+}
+
+.text__icon h3 {
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.text__icon > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__icon > div a {
+    font-family: 'Roboto Bold';
+    font-size: 1.5rem;
+}
+
+.icon__items ul li {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.icon__items:last-child p {
+    max-width: 695px;
+}
+
+.text__listone {
+    margin-top: 20px;
+}
+
+.text__listtwo {
+    margin-top: 40px;
+}
+
+.twolist div:last-child {
+    margin-top: 15px;
+}
+
+.twolist {
+    max-width: 805px;
+}
+
+.threelist {
+    max-width: 575px;
+    margin-top: 51px;
+}
+
+.threelist h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.threelist b {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.threelist p {
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+.icon li {
+    margin-top: 30px;
+}
+
+.icon li svg:last-child {
+    margin-left: 25px;
+}
+
+.text__footer {
+    margin-top: 20px;
+    max-width: 815px;
+}
+
+.text__footer div {
+    margin: 20px 0;
+}
+
+.textone {
+    margin-top: 100px;
+}
+
+.text__aline {
+    margin-top: 25px;
+}
+
+.text__oneform div {
+    margin-top: 15px;
+}
+
+.text__oneform {
+    margin-top: 50px;
+}
+
+.text__listtwo b {
+    font-size: 1.35rem;
+}
+
+.head__content {
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 50px;
+}
+
+.head__info {
+    font-size: 22px;
+    margin-top: 10px;
+}

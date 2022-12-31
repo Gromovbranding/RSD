@@ -1,0 +1,154 @@
+.local-place__content{
+    display: grid;
+    grid-template-columns: 275px 1fr;
+    grid-gap: 15px;
+}
+
+.local-place__filters-hash {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.local-place__filters-hash button {
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 45px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-weight: bold;
+}
+
+.local-place__filters-hash button:hover {
+    color: var(--color-white)
+}
+
+.local-place__filters-hash--badge-svao {
+    border-color: var(--color-badge-svao);
+    color: var(--color-badge-svao);
+}
+
+.local-place__filters-hash--badge-svao:hover {
+    background-color: var(--color-badge-svao);
+}
+
+.local-place__filters-hash--badge-szao {
+    border-color: var(--color-badge-szao);
+    color: var(--color-badge-szao);
+}
+
+.local-place__filters-hash--badge-szao:hover {
+    background-color: var(--color-badge-szao);
+}
+
+.local-place__filters-hash--badge-vao {
+    border-color: var(--color-badge-vao);
+    color: var(--color-badge-vao);
+}
+
+.local-place__filters-hash--badge-vao:hover {
+    background-color: var(--color-badge-vao);
+}
+
+.local-place__filters-hash--badge-uzao {
+    border-color: var(--color-badge-uzao);
+    color: var(--color-badge-uzao);
+}
+
+.local-place__filters-hash--badge-uzao:hover {
+    background-color: var(--color-badge-uzao);
+}
+
+.local-place__filters-hash--badge-sao {
+    border-color: var(--color-badge-sao);
+    color: var(--color-badge-sao);
+}
+
+.local-place__filters-hash--badge-sao:hover {
+    background-color: var(--color-badge-sao);
+}
+
+.local-place__filters-hash--badge-zao {
+    border-color: var(--color-badge-zao);
+    color: var(--color-badge-zao);
+}
+
+.local-place__filters-hash--badge-zao:hover {
+    background-color: var(--color-badge-zao);
+}
+
+.local-place__filters-hash--badge-tsao {
+    border-color: var(--color-badge-tsao);
+    color: var(--color-badge-tsao);
+}
+
+.local-place__filters-hash--badge-tsao:hover {
+    background-color: var(--color-badge-tsao);
+}
+
+.local-place__filters-hash--badge-zelao {
+    border-color: var(--color-badge-zelao);
+    color: var(--color-badge-zelao);
+}
+
+.local-place__filters-hash--badge-zelao:hover {
+    background-color: var(--color-badge-zelao);
+}
+
+.local-place__filters-hash--badge-uvao {
+    border-color: var(--color-badge-uvao);
+    color: var(--color-badge-uvao);
+}
+
+.local-place__filters-hash--badge-uvao:hover {
+    background-color: var(--color-badge-uvao);
+}
+
+.local-place__filters-hash--badge-tao {
+    border-color: var(--color-badge-tao);
+    color: var(--color-badge-tao);
+}
+
+.local-place__filters-hash--badge-tao:hover {
+    background-color: var(--color-badge-tao);
+}
+
+.local-place__filters-hash--badge-uao {
+    border-color: var(--color-badge-uao);
+    color: var(--color-badge-uao);
+}
+
+.local-place__filters-hash--badge-uao:hover {
+    background-color: var(--color-badge-uao);
+}
+
+.local-place__filters-hash--badge-nao {
+    border-color: var(--color-badge-nao);
+    color: var(--color-badge-nao);
+}
+
+.local-place__filters-hash--badge-nao:hover {
+    background-color: var(--color-badge-nao);
+}
+
+.local-place__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px 25px;
+}
+
+.local-place__item .image {
+    height: 260px;
+}
+
+.local-place__item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.local-place__item a {
+    width: 150px;
+}

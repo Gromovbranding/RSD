@@ -1,0 +1,40 @@
+.about-us-in-media__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px 25px;
+}
+
+.about-us-in-media__list .card-article {
+    padding: 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.about-us-in-media__list .card-article .image {
+    height: 412px;
+    border-radius: 10px;
+}
+
+.about-us-in-media__list .card-article h3 {
+    margin-top: 30px;
+}
+
+.about-us-in-media__list .card-article iframe {
+    height: 412px;
+    border-radius: 10px;
+}
+
+.about-us-in-media .btn-default {
+    margin: 100px auto 0 auto;
+}
+
+.about-us-in-media__list {
+    margin-top: 53px;
+}
+
+.badge {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    font-size: 1.4rem;
+}

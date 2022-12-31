@@ -1,0 +1,160 @@
+.club-find__content{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 25px;
+}
+
+.club-find__filters-hash {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.club-find__filters-hash button {
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color .3 ease, background-color .3s ease;
+}
+
+.club-find__filters-hash button:hover {
+    color: var(--color-white)
+}
+
+.club-find__filters-hash--badge-svao {
+    border-color: var(--color-badge-svao);
+    color: var(--color-badge-svao);
+}
+
+.club-find__filters-hash--badge-svao:hover {
+    background-color: var(--color-badge-svao);
+}
+
+.club-find__filters-hash--badge-szao {
+    border-color: var(--color-badge-szao);
+    color: var(--color-badge-szao);
+}
+
+.club-find__filters-hash--badge-szao:hover {
+    background-color: var(--color-badge-szao);
+}
+
+.club-find__filters-hash--badge-vao {
+    border-color: var(--color-badge-vao);
+    color: var(--color-badge-vao);
+}
+
+.club-find__filters-hash--badge-vao:hover {
+    background-color: var(--color-badge-vao);
+}
+
+.club-find__filters-hash--badge-uzao {
+    border-color: var(--color-badge-uzao);
+    color: var(--color-badge-uzao);
+}
+
+.club-find__filters-hash--badge-uzao:hover {
+    background-color: var(--color-badge-uzao);
+}
+
+.club-find__filters-hash--badge-sao {
+    border-color: var(--color-badge-sao);
+    color: var(--color-badge-sao);
+}
+
+.club-find__filters-hash--badge-sao:hover {
+    background-color: var(--color-badge-sao);
+}
+
+.club-find__filters-hash--badge-zao {
+    border-color: var(--color-badge-zao);
+    color: var(--color-badge-zao);
+}
+
+.club-find__filters-hash--badge-zao:hover {
+    background-color: var(--color-badge-zao);
+}
+
+.club-find__filters-hash--badge-tsao {
+    border-color: var(--color-badge-tsao);
+    color: var(--color-badge-tsao);
+}
+
+.club-find__filters-hash--badge-tsao:hover {
+    background-color: var(--color-badge-tsao);
+}
+
+.club-find__filters-hash--badge-zelao {
+    border-color: var(--color-badge-zelao);
+    color: var(--color-badge-zelao);
+}
+
+.club-find__filters-hash--badge-zelao:hover {
+    background-color: var(--color-badge-zelao);
+}
+
+.club-find__filters-hash--badge-uvao {
+    border-color: var(--color-badge-uvao);
+    color: var(--color-badge-uvao);
+}
+
+.club-find__filters-hash--badge-uvao:hover {
+    background-color: var(--color-badge-uvao);
+}
+
+.club-find__filters-hash--badge-tao {
+    border-color: var(--color-badge-tao);
+    color: var(--color-badge-tao);
+}
+
+.club-find__filters-hash--badge-tao:hover {
+    background-color: var(--color-badge-tao);
+}
+
+.club-find__filters-hash--badge-uao {
+    border-color: var(--color-badge-uao);
+    color: var(--color-badge-uao);
+}
+
+.club-find__filters-hash--badge-uao:hover {
+    background-color: var(--color-badge-uao);
+}
+
+.club-find__filters-hash--badge-nao {
+    border-color: var(--color-badge-nao);
+    color: var(--color-badge-nao);
+}
+
+.club-find__filters-hash--badge-nao:hover {
+    background-color: var(--color-badge-nao);
+}
+
+.club-find__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px 25px;
+}
+
+.club-find__item .image {
+    height: 220px;
+}
+
+.club-find__item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.club-find__item a {
+    width: 150px;
+}
+
+.club-find__list--no-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

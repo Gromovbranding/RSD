@@ -1,0 +1,30 @@
+.clubs__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px 25px;
+}
+
+.clubs__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.clubs__item .image {
+    height: 260px;
+}
+
+.clubs__item h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.clubs__item p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.clubs__item a {
+    width: 150px;
+    margin-top: auto;
+}
